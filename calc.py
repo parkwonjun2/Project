@@ -15,6 +15,10 @@ def na_func(n1, n2) :
     retValue = n1 /n2
     return retValue
 
+def square_func(n1, n2) :
+    retValue = n1 ** n2
+    return retValue
+
 ## 전역 변수부
 num1, num2, result = 100, 200, 0
 
@@ -32,3 +36,6 @@ print(num1, '*' , num2 , '=' , result)
 
 result = na_func(num1, num2)
 print(num1, '/' , num2 , '=' , result)
+
+result = square_func(num1, num2)
+print(num1, '**' , num2 , '=' , result)
